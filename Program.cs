@@ -1,9 +1,4 @@
-﻿namespace MethodsExercise
-{
-    public class Program
-    {
-        static void Main(string[] args)
-        {
+﻿
             Console.WriteLine("What is your name?");
             string userName = Console.ReadLine();
 
@@ -19,6 +14,4 @@
             Console.WriteLine($"There was a man named {userName}, he was {age} years old.");
             Console.WriteLine($"He had a {userDogColor} dog named {userDogName}");
             Console.WriteLine($"{userName} loved {userDogName} but he did not love being {age} years old!");
-        }
-    }
-}
+       
